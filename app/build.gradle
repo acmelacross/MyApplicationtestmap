@@ -70,4 +70,6 @@ dependencies {
     compile 'com.squareup.okhttp:okhttp:2.4.0'//CDN文件服务使用okhttp相关包进行文件的上传和下载（必填）
     compile 'com.squareup.okio:okio:1.4.0'
     compile 'cn.bmob.android:http-legacy:1.0'
+
+    compile 'cn.yipianfengye.android:zxing-library:2.1'
 }

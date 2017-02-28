@@ -2,6 +2,8 @@ package wfzzkj.myapplicationtestmap;
 
 import android.app.Application;
 
+import com.uuzuche.lib_zxing.activity.ZXingLibrary;
+
 import cn.bmob.v3.Bmob;
 
 public class CrashApplication extends Application {
@@ -9,7 +11,12 @@ public class CrashApplication extends Application {
 	public void onCreate() {
 		super.onCreate();
 		initBmob();
+		//initZx();
 	}
+
+//	private void initZx() {
+//		ZXingLibrary.initDisplayOpinion(this);
+//	}
 
 	private  void initBmob(){
 		//第一：默认初始化
